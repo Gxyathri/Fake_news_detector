@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from gensim.models import Word2Vec
-w2v_model = Word2Vec.load(r"C:\Users\gayat\OneDrive\Desktop\gen\word2vec_model")
+w2v_model = Word2Vec.load(r"----")
 
 
 app = Flask(__name__)
